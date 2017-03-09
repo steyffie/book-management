@@ -115,15 +115,18 @@ public class TableBook {
     f.getContentPane().add(separator);
     
     JButton btnNewButton = new JButton("LOG OUT");
+    btnNewButton.setFont(new Font("Segoe UI", Font.PLAIN, 11));
     btnNewButton.setBounds(585, 11, 89, 23);
     f.getContentPane().add(btnNewButton);
     
     JButton btnNewButton_1 = new JButton("Manage Book");
+    btnNewButton_1.setFont(new Font("Segoe UI", Font.PLAIN, 11));
     btnNewButton_1.setBounds(445, 11, 130, 23);
     f.getContentPane().add(btnNewButton_1);
     
     JButton btnNewButton_2 = new JButton("Manage Request");
-    btnNewButton_2.setBounds(288, 11, 147, 23);
+    btnNewButton_2.setFont(new Font("Segoe UI", Font.PLAIN, 11));
+    btnNewButton_2.setBounds(189, 11, 147, 23);
     f.getContentPane().add(btnNewButton_2);
     
     JButton btnNewButton_3 = new JButton("ADD");
@@ -135,6 +138,11 @@ public class TableBook {
     btnNewButton_4.setFont(new Font("Segoe UI", Font.BOLD, 12));
     btnNewButton_4.setBounds(555, 416, 119, 52);
     f.getContentPane().add(btnNewButton_4);
+    
+    JButton btnRecords = new JButton("Records");
+    btnRecords.setFont(new Font("Segoe UI", Font.PLAIN, 11));
+    btnRecords.setBounds(346, 11, 89, 23);
+    f.getContentPane().add(btnRecords);
     f.setSize(700,525);
     f.setVisible(true);    
 }     
